@@ -12,9 +12,9 @@ from scipy.special import logsumexp
 
 
 CSV_PATH = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv"
+    "/data/loto7_4698_k80.csv"
+    # "/data/loto7_4698_k80_loto_2971.csv"
+    # "/data/loto7_4698_k80_loto_plus_1727.csv"
 )
 
 N = 39
@@ -850,7 +850,7 @@ if __name__ == "__main__":
 
 
 """
-Loto integral v1; CSV=/Users/4c/Desktop/GHQ/data/loto7_4698_k80.csv; svih 4698 izvlačenja.
+Loto integral v1; CSV=/data/loto7_4698_k80.csv; svih 4698 izvlačenja.
 Prvi red najstariji; poslednji najnoviji.
 Hronološka obuka=3758; provera=940
 Referentni log P=-16.548639443
@@ -862,14 +862,14 @@ Integracija=129
 Integracija=257; relativna promena=2.04438222e-09
 Globalni maksimum proveren; čvorova=8.
 
-NEXT: 8 15 20 25 26 33 34
+NEXT: 8 x 20 y 26 z 34
 Verovatnoća po modelu: 6.9426270208e-08
 
 
 
 
 
-Loto integral v1; CSV=/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_2971.csv; svih 2971 izvlačenja.
+Loto integral v1; CSV=/data/loto7_4698_k80_loto_2971.csv; svih 2971 izvlačenja.
 Prvi red najstariji; poslednji najnoviji.
 Hronološka obuka=2376; provera=595
 Referentni log P=-16.548639443
@@ -881,14 +881,14 @@ Integracija=129
 Integracija=257; relativna promena=1.92717847e-08
 Globalni maksimum proveren; čvorova=13.
 
-NEXT: 8 15 16 17 18 33 34
+NEXT: 8 x 16 y 18 z 34
 Verovatnoća po modelu: 7.86207902332e-08
 
 
 
 
 
-Loto integral v1; CSV=/Users/4c/Desktop/GHQ/data/loto7_4698_k80_loto_plus_1727.csv; svih 1727 izvlačenja.
+Loto integral v1; CSV=/data/loto7_4698_k80_loto_plus_1727.csv; svih 1727 izvlačenja.
 Prvi red najstariji; poslednji najnoviji.
 Hronološka obuka=1381; provera=346
 Referentni log P=-16.548639443
@@ -902,7 +902,7 @@ Integracija=513; relativna promena=6.63746474e-05
 Napomena: integracija je dostigla maksimalnu rezoluciju.
 Globalni maksimum proveren; čvorova=8.
 
-NEXT: 4 5 6 18 22 28 34
+NEXT: 4 x 6 y 22 z 34
 Verovatnoća po modelu: 8.27408691483e-08
 """
 
